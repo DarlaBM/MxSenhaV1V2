@@ -1,0 +1,15 @@
+{
+  "name": "MxSenhaV1V2",
+  "short_name": "MxSenhaV1V2",
+  "display": "standalone",
+  "background_color": "#1c1c1e",
+  "theme_color": "#1c1c1e",
+  "start_url": "/MxSenhaV1V2/",
+  "icons": [
+    {
+      "src": "icon.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg"
+    }
+  ]
+}
