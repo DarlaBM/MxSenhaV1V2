@@ -288,6 +288,11 @@ document.getElementById("li").addEventListener("keydown", function(e){
   if(e.key === "Enter") doLogin();
 });
 
+if(localStorage.getItem("mxauth") === "ok"){
+  document.getElementById("loginScreen").classList.add("gone");
+  document.getElementById("appScreen").style.display = "";
+}
+
 var TX = {
   pt:{
     fCod:"Código",fHrs:"Horas",fOpts:"Opções de Chave",fChave:"Chave",
