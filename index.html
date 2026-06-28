@@ -347,6 +347,7 @@ var TX = {
 
 function doLogin(){
   if(document.getElementById("li").value === PWD){
+    localStorage.setItem("mxauth", "ok");
     document.getElementById("loginScreen").classList.add("gone");
     document.getElementById("appScreen").style.display = "";
   } else {
